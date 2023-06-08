@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/0-pack-demarrage
 /.pnp
 .pnp.js
 
