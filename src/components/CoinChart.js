@@ -34,7 +34,6 @@ const CoinChart = ({ coinId, coinName }) => {
                     }
                     setCoinData(dataArray);
                 })
-        console.log(duration);
     }, [coinId, duration])
     return (
         <div className="coin-chart">
@@ -75,7 +74,6 @@ const CoinChart = ({ coinId, coinName }) => {
                     stroke={colors.color1}
                     fillOpacity={1}
                     fill="url(#colorUv)" />
-
             </AreaChart>
         </div>
     );

@@ -72,8 +72,8 @@ const Table = ({ coinsData }) => {
                             );
                         case "1j":
                             return (
-                                b.market_cap_change_percentage_24h -
-                                a.market_cap_change_percentage_24h
+                                b.price_change_percentage_24h_in_currency -
+                                a.price_change_percentage_24h_in_currency
                             );
                         case "1s":
                             return (
@@ -112,8 +112,8 @@ const Table = ({ coinsData }) => {
                             );
                         case "1jreverse":
                             return (
-                                a.market_cap_change_percentage_24h -
-                                b.market_cap_change_percentage_24h
+                                a.price_change_percentage_24h_in_currency -
+                                b.price_change_percentage_24h_in_currency
                             );
                         case "1sreverse":
                             return (
